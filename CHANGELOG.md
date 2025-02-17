@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.1...v0.1.2) (2025-02-17)
+
+
+### 🐛 Bug Fixes
+
+* replace discount message with React component ([c80ed88](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/c80ed8801126532ead5c0f97c2ab207baa1bbd83))
+
+
+### ✨ Features
+
+* add page name and icon ([1f3a532](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/1f3a532969c50d8d27ca2e04ddda117ac2190bde))
+* implement footer content ([9afcb88](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/9afcb887a15b2e7df07414379b6d1670dedc3b20))
+
 ### 0.1.1 (2025-02-16)
 
 
