@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.2...v0.1.3) (2025-02-18)
+
+
+### 💄 Styling
+
+* format code with Prettier ([5a894a9](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/5a894a93fb365cd310d27182b1a501f34a2b8d33))
+
+
+### ✨ Features
+
+* add global base styles using [@layer](https://github.com/layer) base ([7f2d6d9](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/7f2d6d907ce364e8c2f6149085379ae3392f8d99))
+* add prettier and tailwind plugin ([00ae57d](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/00ae57dcaff1fe7b57d5d0f3bcf706b31cf98547))
+* create hero section ([bdfee7e](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/bdfee7e345e3af32fd8ae2712bf3bbfd90d58bc8))
+* make header responsive ([fa85563](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/fa85563acbe83e48d2889d395eae25d83d1a053b))
+
 ### [0.1.2](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.1...v0.1.2) (2025-02-17)
 
 
