@@ -8,9 +8,9 @@ function HeaderNav() {
   return (
     <div className="bg-primary relative flex items-center justify-between p-6">
       <IconContext.Provider value={{ color: 'white', size: '2em' }}>
-        <div className="flex-grow cursor-pointer">
-          <HiBars3 />
-        </div>
+        <button className="flex-grow">
+          <HiBars3 className="cursor-pointer" />
+        </button>
       </IconContext.Provider>
       <img
         src={logo}
@@ -21,9 +21,9 @@ function HeaderNav() {
       />
       <SearchBar />
       <IconContext.Provider value={{ size: '1.5em' }}>
-        <div className="ml-10 cursor-pointer">
+        <button className="ml-0 cursor-pointer lg:ml-10">
           <MdShoppingBasket />
-        </div>
+        </button>
       </IconContext.Provider>
     </div>
   );
