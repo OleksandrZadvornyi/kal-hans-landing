@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "/src/assets/images/item-1",
+    "imageAlt": "Hydrating Rose Petal Face Mist",
+    "title": "Hydrating Rose Petal Face Mist",
+    "price": "$7.94",
+    "reviews": "14 reviews"
+  },
+  {
+    "id": 2,
+    "imageSrc": "/src/assets/images/item-2",
+    "imageAlt": "Hydrating Rose Petal Face Mist",
+    "title": "Hydrating Rose Petal Face Mist",
+    "price": "$7.94",
+    "reviews": "14 reviews"
+  },
+  {
+    "id": 3,
+    "imageSrc": "/src/assets/images/item-3",
+    "imageAlt": "Hydrating Rose Petal Face Mist",
+    "title": "Hydrating Rose Petal Face Mist",
+    "price": "$7.94",
+    "reviews": "14 reviews"
+  },
+  {
+    "id": 4,
+    "imageSrc": "/src/assets/images/item-4",
+    "imageAlt": "Hydrating Rose Petal Face Mist",
+    "title": "Hydrating Rose Petal Face Mist",
+    "price": "$7.94",
+    "reviews": "14 reviews"
+  },
+  {
+    "id": 5,
+    "imageSrc": "/src/assets/images/item-5",
+    "imageAlt": "Hydrating Rose Petal Face Mist",
+    "title": "Hydrating Rose Petal Face Mist",
+    "price": "$7.94",
+    "reviews": "14 reviews"
+  },
+  {
+    "id": 6,
+    "imageSrc": "/src/assets/images/item-6",
+    "imageAlt": "Hydrating Rose Petal Face Mist",
+    "title": "Hydrating Rose Petal Face Mist",
+    "price": "$7.94",
+    "reviews": "14 reviews"
+  }
+]

@@ -1,0 +1,19 @@
+import products from '../data/products.json';
+import ProductCard from './ProductCard';
+
+function Products() {
+  return (
+    <div>
+      <h2 className="text-secondary mt-20 text-center text-lg">
+        The Skincare Essentials
+      </h2>
+      <div className="mx-10 mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {products.map((product) => (
+          <ProductCard key={product.id} {...product} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Products;
