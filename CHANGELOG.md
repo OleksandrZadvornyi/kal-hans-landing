@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.3...v0.1.4) (2025-02-19)
+
+
+### 🐛 Bug Fixes
+
+* add missing images ([c060a53](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/c060a53ce5ef904974343430dce098da4092a0c5))
+
+
+### ✨ Features
+
+* add intro section ([8b1aff5](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/8b1aff5e0cc5b2f8e2472cbb8b04348654692081))
+* add products section ([b3a0fd6](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/b3a0fd6f47ef386ce5563937f27d415ed923efb2))
+* set primary font for all elements ([eae6a6e](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/eae6a6e9dbc450248dad46c5cbfb251bde076df7))
+
 ### [0.1.3](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.2...v0.1.3) (2025-02-18)
 
 
