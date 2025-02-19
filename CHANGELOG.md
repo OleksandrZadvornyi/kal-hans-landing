@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.4...v0.1.5) (2025-02-19)
+
+
+### 🐛 Bug Fixes
+
+* handle image imports in production build ([9ec957b](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/9ec957b3c72f6d063876438f71348a6da05b897d))
+
 ### [0.1.4](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.3...v0.1.4) (2025-02-19)
 
 
