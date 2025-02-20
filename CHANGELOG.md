@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.6...v0.1.7) (2025-02-20)
+
+
+### 🐛 Bug Fixes
+
+* display instagram images in production build ([eac8325](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/eac832513bad37b8fe061172ae82fe85c3c262ff))
+* show `.avif` or `.webp` hero img if possible ([b3da532](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/b3da532dc108f8ebfa58cf74430673e0d715e107))
+
 ### [0.1.6](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.5...v0.1.6) (2025-02-20)
 
 
