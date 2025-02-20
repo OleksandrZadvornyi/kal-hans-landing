@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.5...v0.1.6) (2025-02-20)
+
+
+### ✨ Features
+
+* add a section about product quality ([05aef6d](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/05aef6d59e434d3bd44b1b01a13ef5df9391a23c))
+* add a section with Instagram posts ([c409d7d](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/c409d7dd9f0311ab47254edb7a46cac567adbc41))
+
 ### [0.1.5](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.4...v0.1.5) (2025-02-19)
 
 
