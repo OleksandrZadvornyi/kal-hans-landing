@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import AboutIntro from './components/AboutIntro';
 import Products from './components/Products';
 import Ingredients from './components/Ingredients';
+import InstagramWrapper from './components/InstagramWrapper';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <AboutIntro />
         <Products />
         <Ingredients />
+        <InstagramWrapper />
       </main>
     </>
   );
