@@ -1,3 +1,5 @@
+import { useMemo } from 'react';
+
 interface InstagramPostProps {
   imageSrc: string; // Base URL without extension
   content: string;
@@ -5,10 +7,22 @@ interface InstagramPostProps {
 }
 
 const InstagramPost = ({ imageSrc, content, date }: InstagramPostProps) => {
+  const images = useMemo(() => {
+    const avif = import.meta.glob('/src/assets/images/*.avif', { eager: true });
+    const webp = import.meta.glob('/src/assets/images/*.webp', { eager: true });
+    const jpg = import.meta.glob('/src/assets/images/*.jpg', { eager: true });
+
+    return {
+      avif: (avif[`${imageSrc}.avif`] as any)?.default,
+      webp: (webp[`${imageSrc}.webp`] as any)?.default,
+      jpg: (jpg[`${imageSrc}.jpg`] as any)?.default,
+    };
+  }, [imageSrc]);
+
   const backgroundImage = [
-    `url(${imageSrc}.avif)`,
-    `url(${imageSrc}.webp)`,
-    `url(${imageSrc}.jpg)`,
+    `url(${images.avif})`,
+    `url(${images.webp})`,
+    `url(${images.jpg})`,
   ].join(', ');
 
   return (
