@@ -15,8 +15,8 @@ function OrderForm() {
   };
 
   return (
-    <div className="flex">
-      <div className="bg-primary flex w-[50%] flex-col items-center text-center">
+    <div className="flex flex-col md:flex-row">
+      <div className="bg-primary flex flex-col items-center text-center md:w-[50%]">
         <h2 className="text-secondary mt-[74px] text-3xl">
           Skin Brightening Under Eye Cream
         </h2>
@@ -46,7 +46,7 @@ function OrderForm() {
         </button>
         <button className="mt-7 mb-24 cursor-pointer">Buy it now</button>
       </div>
-      <picture className="w-[50%]">
+      <picture className="md:w-[50%]">
         <source srcSet={itemBigAvif} type="image/avif" />
         <source srcSet={itemBigWebp} type="image/webp" />
         <img
