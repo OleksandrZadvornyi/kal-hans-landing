@@ -7,6 +7,7 @@ import Products from './components/Products';
 import Ingredients from './components/Ingredients';
 import InstagramWrapper from './components/InstagramWrapper';
 import OrderForm from './components/OrderForm';
+import Companies from './components/Companies';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Ingredients />
         <InstagramWrapper />
         <OrderForm />
+        <Companies />
       </main>
     </>
   );
