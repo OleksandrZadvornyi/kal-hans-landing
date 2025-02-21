@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.7...v0.1.8) (2025-02-21)
+
+
+### 🐛 Bug Fixes
+
+* make ordering section responsive ([425ee66](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/425ee664b7e855151f2ffe5f49bf5e8c339af65f))
+
+
+### ✨ Features
+
+* add companies section ([ff46aab](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/ff46aab14b7721d019734f7b184a26eb68583d4e))
+* add ordering section ([bc22cd7](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/bc22cd72b01e0eb50ceab9214f6e78c8c7e67a8a))
+
 ### [0.1.7](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.6...v0.1.7) (2025-02-20)
 
 
