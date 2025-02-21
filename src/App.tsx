@@ -6,6 +6,7 @@ import AboutIntro from './components/AboutIntro';
 import Products from './components/Products';
 import Ingredients from './components/Ingredients';
 import InstagramWrapper from './components/InstagramWrapper';
+import OrderForm from './components/OrderForm';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Products />
         <Ingredients />
         <InstagramWrapper />
+        <OrderForm />
       </main>
     </>
   );
