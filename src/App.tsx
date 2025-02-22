@@ -10,6 +10,8 @@ import OrderForm from './components/OrderForm';
 import Companies from './components/Companies';
 import Endorsement from './components/Endorsement';
 import Newsletter from './components/Newsletter';
+import History from './components/History';
+
 function App() {
   return (
     <>
@@ -27,6 +29,7 @@ function App() {
         <Companies />
         <Endorsement />
         <Newsletter />
+        <History />
       </main>
     </>
   );
