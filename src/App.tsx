@@ -11,6 +11,7 @@ import Companies from './components/Companies';
 import Endorsement from './components/Endorsement';
 import Newsletter from './components/Newsletter';
 import History from './components/History';
+import Blogs from './components/Blogs';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Endorsement />
         <Newsletter />
         <History />
+        <Blogs />
       </main>
     </>
   );
