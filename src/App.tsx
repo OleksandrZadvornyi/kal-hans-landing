@@ -9,7 +9,7 @@ import InstagramWrapper from './components/InstagramWrapper';
 import OrderForm from './components/OrderForm';
 import Companies from './components/Companies';
 import Endorsement from './components/Endorsement';
-
+import Newsletter from './components/Newsletter';
 function App() {
   return (
     <>
@@ -26,6 +26,7 @@ function App() {
         <OrderForm />
         <Companies />
         <Endorsement />
+        <Newsletter />
       </main>
     </>
   );
