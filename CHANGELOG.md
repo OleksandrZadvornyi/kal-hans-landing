@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.8...v0.1.9) (2025-02-22)
+
+
+### 💄 Styling
+
+* format 'companies' and ordering sections ([1ed4695](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/1ed46959f70652ce75fb5873106049ec339467df))
+
+
+### ✨ Features
+
+* add blogs section ([532e2a6](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/532e2a659ab68ed8f7d1a5607dca752a0a2e538a))
+* add endorsement section ([776e36f](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/776e36f8e7ebf06ecfc0d65e7854bee0b8ada0d5))
+* add history section ([b0eec80](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/b0eec807d69b2c16d04d3b3d2e536f44922ab87f))
+* add newsletter section ([0e5bb63](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/0e5bb63d4ab77751bd06ccd83fac33e9a1a6d469))
+
 ### [0.1.8](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.7...v0.1.8) (2025-02-21)
 
 
