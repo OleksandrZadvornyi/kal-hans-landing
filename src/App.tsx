@@ -8,6 +8,7 @@ import Ingredients from './components/Ingredients';
 import InstagramWrapper from './components/InstagramWrapper';
 import OrderForm from './components/OrderForm';
 import Companies from './components/Companies';
+import Endorsement from './components/Endorsement';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <InstagramWrapper />
         <OrderForm />
         <Companies />
+        <Endorsement />
       </main>
     </>
   );
