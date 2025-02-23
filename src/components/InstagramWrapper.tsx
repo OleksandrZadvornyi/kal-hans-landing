@@ -28,7 +28,7 @@ function InstagramWrapper() {
           ))}
         </div>
       </div>
-      <button className="bg-tertiary mt-12 mb-24 w-fit cursor-pointer px-11 py-3">
+      <button className="bg-tertiary hover:bg-secondary mt-12 mb-24 w-fit cursor-pointer px-11 py-3 duration-500 hover:text-white">
         Go To Instagram
       </button>
 

@@ -11,7 +11,7 @@ function Newsletter() {
           type="email"
           className="min-h-11 w-72 max-w-[90%] bg-white text-black"
         />
-        <button className="bg-primary cursor-pointer px-11 py-3 text-black">
+        <button className="bg-primary hover:bg-secondary cursor-pointer px-11 py-3 text-black duration-500 hover:text-white">
           Subscribe
         </button>
       </form>

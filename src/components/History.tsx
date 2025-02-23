@@ -22,7 +22,7 @@ function History() {
           own skin. After meeting with a severe accident in New York founder
           Lisa D'Mello created Kal Hans
         </p>
-        <button className="bg-primary cursor-pointer px-11 py-3 text-black">
+        <button className="bg-primary hover:bg-secondary cursor-pointer px-11 py-3 text-black duration-500 hover:text-white">
           Read More
         </button>
       </div>

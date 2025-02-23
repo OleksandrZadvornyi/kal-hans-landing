@@ -32,7 +32,11 @@ function ProductCard({
       <picture>
         <source srcSet={images.avif} type="image/avif" />
         <source srcSet={images.webp} type="image/webp" />
-        <img src={images.png} alt={imageAlt} />
+        <img
+          src={images.png}
+          alt={imageAlt}
+          className="duration-500 hover:scale-110"
+        />
       </picture>
       <h3 className="mt-5 text-sm font-bold">{title}</h3>
       <p className="mt-2">{price}</p>

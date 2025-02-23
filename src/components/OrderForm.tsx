@@ -26,22 +26,22 @@ function OrderForm() {
           help lighten stubborn dark circles whilst calming the area from stress
           related damage and wrinkles.
         </p>
-        <p className="border-order mt-10 flex border bg-white">
+        <p className="border-order mt-10 flex border bg-white select-none">
           <span
-            className="text-option block cursor-pointer px-3.5 py-2.5 hover:bg-black/25"
+            className="text-option block cursor-pointer px-3.5 py-2.5 duration-500 hover:bg-black/25"
             onClick={decreaseQuantity}
           >
             -
           </span>
           <span className="block px-6 py-2.5 font-bold">{quantity}</span>
           <span
-            className="text-option block cursor-pointer px-3.5 py-2.5 hover:bg-black/25"
+            className="text-option block cursor-pointer px-3.5 py-2.5 duration-500 hover:bg-black/25"
             onClick={increaseQuantity}
           >
             +
           </span>
         </p>
-        <button className="mt-5 cursor-pointer bg-black px-28 py-3 text-sm text-white">
+        <button className="hover:bg-secondary mt-5 cursor-pointer bg-black px-28 py-3 text-sm text-white duration-500 hover:text-black">
           Add to cart
         </button>
         <button className="mt-7 mb-24 cursor-pointer">Buy it now</button>

@@ -15,7 +15,7 @@ function Endorsement() {
           skincare routine and give you glowing skin. Because the best makeup is
           NO makeup.
         </p>
-        <button className="bg-primary cursor-pointer px-11 py-3 text-black">
+        <button className="bg-primary hover:bg-secondary cursor-pointer px-11 py-3 text-black duration-500 hover:text-white">
           Get Glowing
         </button>
       </div>

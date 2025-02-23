@@ -24,7 +24,7 @@ function Ingredients() {
           <li>Synthetic Chemicals</li>
           <li>Artificial Fragrances</li>
         </ul>
-        <button className="cursor-pointer border-[3px] border-white px-11 py-3">
+        <button className="hover:text-accent hover:border-accent cursor-pointer border-[3px] border-white px-11 py-3 duration-500 hover:bg-white">
           Shop Green Beauty
         </button>
       </div>
