@@ -4,9 +4,9 @@ import { IconContext } from 'react-icons';
 import SearchBar from './SearchBar';
 import logo from '../assets/images/logo.png';
 
-function HeaderNav() {
+function Header() {
   return (
-    <div className="bg-primary relative flex items-center justify-between p-6">
+    <header className="bg-primary relative flex items-center justify-between p-6">
       <IconContext.Provider value={{ color: 'white', size: '2em' }}>
         <button className="flex-grow">
           <HiBars3 className="cursor-pointer" />
@@ -25,8 +25,8 @@ function HeaderNav() {
           <MdShoppingBasket />
         </button>
       </IconContext.Provider>
-    </div>
+    </header>
   );
 }
 
-export default HeaderNav;
+export default Header;
