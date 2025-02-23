@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.11](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.10...v0.1.11) (2025-02-23)
+
+
+### 🐛 Bug Fixes
+
+* add horizontal padding to payment methods ([9213a94](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/9213a94b3443d74d7752d570c01b316a9f4b9b27))
+* add vertical padding to intro section ([aeb3d89](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/aeb3d898c2e6ac637594216dfe521a485db7ae2e))
+* make Ingredients section responsive ([64187f4](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/64187f49d9afabb7951f15208d4be85c236c8c8d))
+
+
+### ♻️ Code Refactoring
+
+* make header section its own component ([7ada854](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/7ada854230d32307cdcd8bfa6b6ecfbd8a023ca5))
+
+
+### 💄 Styling
+
+* format previous code with prettier ([2b24df1](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/2b24df1c9f9f80787b125f41cef78e9e697ca799))
+
 ### [0.1.10](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.9...v0.1.10) (2025-02-23)
 
 
