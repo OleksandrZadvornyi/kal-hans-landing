@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.9...v0.1.10) (2025-02-23)
+
+
+### ✨ Features
+
+* add footer ([68d427e](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/68d427ea5879b54829303b9fcc1a4f24e12df30f))
+
 ### [0.1.9](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.8...v0.1.9) (2025-02-22)
 
 
