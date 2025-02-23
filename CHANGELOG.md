@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.12...v0.1.13) (2025-02-23)
+
+
+### ✨ Features
+
+* add on hover animations ([f00c17a](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/f00c17a56230d0553ddd39c8e03966f8f1480711))
+
 ### [0.1.12](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.11...v0.1.12) (2025-02-23)
 
 
