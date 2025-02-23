@@ -13,26 +13,42 @@ import Newsletter from './components/Newsletter';
 import History from './components/History';
 import Blogs from './components/Blogs';
 import Footer from './components/Footer';
+import { withScrollAnimation } from './components/animations/withScrollAnimation';
+
+// Enhance components with scroll animation
+const AnimatedHeader = withScrollAnimation(Header);
+const AnimatedHero = withScrollAnimation(Hero);
+const AnimatedAboutIntro = withScrollAnimation(AboutIntro);
+const AnimatedProducts = withScrollAnimation(Products);
+const AnimatedIngredients = withScrollAnimation(Ingredients);
+const AnimatedInstagram = withScrollAnimation(InstagramWrapper);
+const AnimatedCompanies = withScrollAnimation(Companies);
+const AnimatedEndorsement = withScrollAnimation(Endorsement);
+const AnimatedNewsletter = withScrollAnimation(Newsletter);
+const AnimatedHistory = withScrollAnimation(History);
+const AnimatedBlogs = withScrollAnimation(Blogs);
+const AnimatedFooter = withScrollAnimation(Footer);
+const AnimatedDiscountMessage = withScrollAnimation(DiscountMessage);
 
 function App() {
   return (
     <>
-      <DiscountMessage />
-      <Header />
+      <AnimatedDiscountMessage />
+      <AnimatedHeader />
       <main>
-        <Hero />
-        <AboutIntro />
-        <Products />
-        <Ingredients />
-        <InstagramWrapper />
+        <AnimatedHero />
+        <AnimatedAboutIntro />
+        <AnimatedProducts />
+        <AnimatedIngredients />
+        <AnimatedInstagram />
         <OrderForm />
-        <Companies />
-        <Endorsement />
-        <Newsletter />
-        <History />
-        <Blogs />
+        <AnimatedCompanies />
+        <AnimatedEndorsement />
+        <AnimatedNewsletter />
+        <AnimatedHistory />
+        <AnimatedBlogs />
       </main>
-      <Footer />
+      <AnimatedFooter />
     </>
   );
 }
