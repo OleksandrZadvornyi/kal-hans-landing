@@ -23,7 +23,7 @@ const PaymentMethods = () => {
   ];
 
   return (
-    <div className="flex flex-wrap items-center justify-center gap-3 pb-24">
+    <div className="flex flex-wrap items-center justify-center gap-3 px-5 pb-24">
       {paymentMethods.map(({ src, alt, className }) => (
         <PaymentIcon key={alt} src={src} alt={alt} className={className} />
       ))}
