@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.11...v0.1.12) (2025-02-23)
+
+
+### ✨ Features
+
+* add on scroll animations ([9e6884f](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/9e6884f7e8034dae7d6de81c4c4664087382db3d))
+
 ### [0.1.11](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.10...v0.1.11) (2025-02-23)
 
 
