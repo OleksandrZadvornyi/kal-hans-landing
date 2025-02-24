@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.3.0...v0.3.1) (2025-02-24)
+
+
+### 🐛 Bug Fixes
+
+* remove backend folder to separate repository ([064ccdd](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/064ccdd70f33a32fe0fb40ecb9fb4b26092b771b))
+
 ## [0.3.0](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.2.2...v0.3.0) (2025-02-24)
 
 
