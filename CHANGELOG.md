@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.2.1...v0.2.2) (2025-02-24)
+
+
+### 🐛 Bug Fixes
+
+* use env variable for logout url ([3b6eb8e](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/3b6eb8ed062911ab9f4af0ed320d6cbb15578f1b))
+
 ### [0.2.1](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.2.0...v0.2.1) (2025-02-24)
 
 
