@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.2.2...v0.3.0) (2025-02-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* The data that was stored in JSON format now being requested from MongoDB cluster
+
+### ✨ Features
+
+* add backend with Express + MongoDB ([c32925d](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/c32925d2a953c7529fcd5cb4fe07abf487e30ec1))
+* update API URL for production ([527dab7](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/527dab73cd31b73dec55c6f7eb4467151dcc99d3))
+* update frontend to use MongoDB api ([70e9a68](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/70e9a683b8075c77ffefe97268aba6dfade81229))
+
 ### [0.2.2](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.2.1...v0.2.2) (2025-02-24)
 
 
