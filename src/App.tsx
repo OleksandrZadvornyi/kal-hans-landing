@@ -16,8 +16,6 @@ import Footer from './components/Footer';
 import { withScrollAnimation } from './components/animations/withScrollAnimation';
 
 // Enhance components with scroll animation
-const AnimatedHeader = withScrollAnimation(Header);
-const AnimatedHero = withScrollAnimation(Hero);
 const AnimatedAboutIntro = withScrollAnimation(AboutIntro);
 const AnimatedProducts = withScrollAnimation(Products);
 const AnimatedIngredients = withScrollAnimation(Ingredients);
