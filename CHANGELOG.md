@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.13...v0.2.0) (2025-02-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* **auth:** The authentication flow has been completely refactored to use Auth0.
+
+### ✨ Features
+
+* **auth:** add Auth0 authentication ([273febc](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/273febc246d1a3070413101e5e93672d623a6989))
+
 ### [0.1.13](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.1.12...v0.1.13) (2025-02-23)
 
 
