@@ -40,7 +40,13 @@ const LoginButton = () => {
               {user.name || user.email}
             </div>
             <button
-              onClick={() => logout()}
+              onClick={() =>
+                logout({
+                  logoutParams: {
+                    returnTo: import.meta.env.VITE_AUTH0_CALLBACK_URL,
+                  },
+                })
+              }
               className="block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-100"
             >
               Sign out
