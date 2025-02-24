@@ -1,7 +1,24 @@
 import InstagramPost from './InstagramPost';
-import posts from '../data/instagram-posts.json';
+import { useEffect, useState } from 'react';
+
+interface InstagramPost {
+  _id: string;
+  imageSrc: string;
+  imageAlt: string;
+  content: string;
+  date: string;
+}
 
 function InstagramWrapper() {
+  const [posts, setPosts] = useState<InstagramPost[]>([]);
+
+  useEffect(() => {
+    fetch('http://localhost:5000/api/instagram-posts')
+      .then((res) => res.json())
+      .then((data) => setPosts(data))
+      .catch((err) => console.error(err));
+  }, []);
+
   // Duplicate posts to create seamless infinite scroll
   const duplicatedPosts = [...posts, ...posts];
 
@@ -24,7 +41,7 @@ function InstagramWrapper() {
           }}
         >
           {duplicatedPosts.map((post, index) => (
-            <InstagramPost key={`${post.id}-${index}`} {...post} />
+            <InstagramPost key={`${post._id}-${index}`} {...post} />
           ))}
         </div>
       </div>
