@@ -3,6 +3,7 @@ import { MdShoppingBasket } from 'react-icons/md';
 import { IconContext } from 'react-icons';
 import SearchBar from './SearchBar';
 import logo from '../assets/images/logo.png';
+import LoginButton from './LoginButton';
 
 function Header() {
   return (
@@ -20,8 +21,9 @@ function Header() {
         className="absolute right-0 left-0 m-auto"
       />
       <SearchBar />
+      <LoginButton />
       <IconContext.Provider value={{ size: '1.5em' }}>
-        <button className="ml-0 cursor-pointer lg:ml-10">
+        <button className="ml-0 cursor-pointer lg:ml-5">
           <MdShoppingBasket />
         </button>
       </IconContext.Provider>

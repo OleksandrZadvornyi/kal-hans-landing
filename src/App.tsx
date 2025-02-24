@@ -34,9 +34,9 @@ function App() {
   return (
     <>
       <AnimatedDiscountMessage />
-      <AnimatedHeader />
+      <Header />
       <main>
-        <AnimatedHero />
+        <Hero />
         <AnimatedAboutIntro />
         <AnimatedProducts />
         <AnimatedIngredients />
