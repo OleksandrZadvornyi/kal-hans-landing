@@ -13,7 +13,7 @@ function InstagramWrapper() {
   const [posts, setPosts] = useState<InstagramPost[]>([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/instagram-posts')
+    fetch(`${import.meta.env.VITE_API_URL}/api/instagram-posts`)
       .then((res) => res.json())
       .then((data) => setPosts(data))
       .catch((err) => console.error(err));
