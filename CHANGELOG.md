@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.2](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.3.1...v0.3.2) (2025-02-25)
+
+
+### 📦 Build
+
+* update TS config file ([cefc171](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/cefc1715bfb7ccbdd02963938e2ca2e5d76d0080))
+
+
+### 🐛 Bug Fixes
+
+* remove unused JSON files ([1b236da](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/1b236da3e243a70b6ae95e8e5845916bf6a3bf29))
+
 ### [0.3.1](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.3.0...v0.3.1) (2025-02-24)
 
 
