@@ -81,13 +81,13 @@ The server will start at **http://localhost:5000**.
 This backend is deployed on **Render**. The live API URL is:
 
 ```
-https://hal-hans-backend.onrender.com
+https://kal-hans-backend.onrender.com
 ```
 
 Make sure your frontend is configured to use this URL in `.env`:
 
 ```
-VITE_API_URL=https://hal-hans-backend.onrender.com
+VITE_API_URL=https://kal-hans-backend.onrender.com
 ```
 
 
