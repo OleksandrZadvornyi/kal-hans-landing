@@ -1,50 +1,108 @@
-# React + TypeScript + Vite
+# Kal-Hans Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern landing page for a skincare company built with **React, TypeScript, and Tailwind CSS**, powered by **Vite**. Features a **responsive design, smooth animations, and a clean, user-friendly interface** to showcase skincare products and services.
 
-Currently, two official plugins are available:
+🌐 **Live Demo**: [Kal-Hans Landing Page](https://kal-hans.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- ⚡ **Blazing fast development** with Vite
+- 🎨 **Tailwind CSS** for modern styling
+- 🎭 **TypeScript** for better maintainability
+- 📱 **Fully responsive** design
+- ✨ **Smooth animations** for enhanced UX
+- 🔍 **SEO-friendly** structure
+- 🔥 **Deployed on Netlify** for easy access
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
+## 🔧 Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```sh
+git clone https://github.com/your-username/kal-hans-landing.git
+cd kal-hans-landing
+```
+
+### 2️⃣ Install dependencies
+
+```sh
+npm install
+```
+
+### 3️⃣ Start the development server
+
+```sh
+npm run dev
+```
+
+The app will be available at **[http://localhost:5173](http://localhost:5173)**.
+
+
+## 🏗️ Building for Production
+
+```sh
+npm run build
+```
+
+The production-ready files will be generated in the `dist/` folder.
+
+
+## 🛠 Expanding the ESLint Configuration
+
+If you are developing a production application, update ESLint for type-aware rules:
+
+- Modify `parserOptions`:
+  ```js
+  export default tseslint.config({
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
     },
-  },
-})
+  })
+  ```
+- Use `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`.
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update your `eslint.config.js`:
+  ```js
+  import react from 'eslint-plugin-react'
+  export default tseslint.config({
+    settings: { react: { version: '18.3' } },
+    plugins: { react },
+    rules: {
+      ...react.configs.recommended.rules,
+      ...react.configs['jsx-runtime'].rules,
+    },
+  })
+  ```
+
+
+## 🌍 Deployment
+
+This frontend is deployed on **Netlify** at:
+
+```
+https://kal-hans.netlify.app/
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 🎯 Deploying Updates
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Push your latest changes to the `main` branch.
+2. Netlify will automatically build and deploy the new version.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+## 🔥 Troubleshooting
+
+**Environment Variables Not Working?**
+
+- Ensure `.env` files are set up correctly and variables are prefixed with `VITE_`:
+  ```sh
+  VITE_API_URL=https://your-backend-url.com
+  ```
+
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
