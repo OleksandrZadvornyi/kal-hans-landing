@@ -11,12 +11,20 @@ interface InstagramPost {
 
 function InstagramWrapper() {
   const [posts, setPosts] = useState<InstagramPost[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    setIsLoading(true);
     fetch(`${import.meta.env.VITE_API_URL}/api/instagram-posts`)
       .then((res) => res.json())
-      .then((data) => setPosts(data))
-      .catch((err) => console.error(err));
+      .then((data) => {
+        setPosts(data);
+        setIsLoading(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setIsLoading(false);
+      });
   }, []);
 
   // Duplicate posts to create seamless infinite scroll
@@ -33,17 +41,23 @@ function InstagramWrapper() {
       </p>
       {/* Wrapper for the scrolling content */}
       <div className="relative mt-11">
-        {/* Container for the scrolling posts */}
-        <div
-          className="animate-scroll flex gap-5"
-          style={{
-            animation: 'scroll 30s linear infinite',
-          }}
-        >
-          {duplicatedPosts.map((post, index) => (
-            <InstagramPost key={`${post._id}-${index}`} {...post} />
-          ))}
-        </div>
+        {isLoading ? (
+          <div className="flex h-32 w-full items-center justify-center">
+            <div className="border-secondary h-12 w-12 animate-spin rounded-full border-t-2 border-b-2"></div>
+          </div>
+        ) : (
+          /* Container for the scrolling posts */
+          <div
+            className="animate-scroll flex gap-5"
+            style={{
+              animation: 'scroll 30s linear infinite',
+            }}
+          >
+            {duplicatedPosts.map((post, index) => (
+              <InstagramPost key={`${post._id}-${index}`} {...post} />
+            ))}
+          </div>
+        )}
       </div>
       <button className="bg-tertiary hover:bg-secondary mt-12 mb-24 w-fit cursor-pointer px-11 py-3 duration-500 hover:text-white">
         Go To Instagram
