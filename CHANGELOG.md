@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.3.4...v1.0.1) (2025-02-28)
+
+
+### 📝 Documentation
+
+* add Figma design attribution to README ([61bff96](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/61bff96fda10b7df4009b5563bc021cd155f668e))
+
+
+### 🛠 Maintenance
+
+* **release:** 1.0.0 ([ac17061](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/ac170619f29308851a77dfd5e01daa47e92637d6))
+
 ## [1.0.0](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v0.3.4...v1.0.0) (2025-02-28)
 
 
