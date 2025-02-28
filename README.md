@@ -15,6 +15,12 @@ A modern landing page for a skincare company built with **React, TypeScript, and
 - 🔍 **SEO-friendly** structure
 - 🔥 **Deployed on Netlify** for easy access
 
+## 🎨 Design Credits
+
+This landing page implements a design created by the Figma community:
+
+- Original design: [Kal-Hans Figma Design](https://www.figma.com/design/RpXjeL6BhbtHrtcJxpVR0f/Kal-Hans)
+- All design elements and visual concepts credit to the original designer
 
 ## 🔧 Installation & Setup
 
