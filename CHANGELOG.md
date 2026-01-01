@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v1.0.2...v1.0.3) (2026-01-01)
+
+
+### 🐛 Bug Fixes
+
+* improve error handling in data fetching components ([b7bad57](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/b7bad576e41d143aca92dc9f1f3cbf946471188d))
+
 ### [1.0.2](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v1.0.1...v1.0.2) (2025-03-08)
 
 
