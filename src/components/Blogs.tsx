@@ -17,13 +17,19 @@ function Blogs() {
   useEffect(() => {
     setIsLoading(true);
     fetch(`${import.meta.env.VITE_API_URL}/api/blogs`)
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! Status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then((data) => {
         setBlogs(data);
         setIsLoading(false);
       })
       .catch((err) => {
-        console.error(err);
+        console.error("Failed to fetch blogs:", err);
+        setBlogs([]);
         setIsLoading(false);
       });
   }, []);

@@ -16,13 +16,19 @@ function InstagramWrapper() {
   useEffect(() => {
     setIsLoading(true);
     fetch(`${import.meta.env.VITE_API_URL}/api/instagram-posts`)
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! Status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then((data) => {
         setPosts(data);
         setIsLoading(false);
       })
       .catch((err) => {
-        console.error(err);
+        console.error("Failed to fetch blogs:", err);
+        setPosts([]);
         setIsLoading(false);
       });
   }, []);
