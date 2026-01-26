@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v1.0.3...v1.0.4) (2026-01-26)
+
+
+### 📝 Documentation
+
+* update copyright year in LICENSE ([7704b9a](https://github.com/OleksandrZadvornyi/kal-hans-landing/commit/7704b9a0c566bd0d38bafde2dda748cada5f938b))
+
 ### [1.0.3](https://github.com/OleksandrZadvornyi/kal-hans-landing/compare/v1.0.2...v1.0.3) (2026-01-01)
 
 
