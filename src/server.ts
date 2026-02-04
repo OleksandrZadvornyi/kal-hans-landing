@@ -28,6 +28,8 @@ app.use('/api/products', productRoutes);
 app.use('/api/instagram-posts', instagramRoutes);
 app.use('/api/blogs', blogRoutes);
 
+app.get("/", (req, res) => { res.send("Server is running..."); });
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
